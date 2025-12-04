@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top navbar-glass">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-code me-2"></i>Felix<span class="text-gradient">Portfolio</span>
+            </a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link btn-contact px-4" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero text-center">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="profile-wrapper mb-3">
+                <img src="WhatsApp Image 2025-12-03 at 16.02.00.jpeg" class="profile-img" alt="Profile" onerror="this.src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=60'">
+            </div>
+            <h2 class="display-4 fw-bold">Felix Tommy Lauvender</h2>
+            <p class="tagline">Information Systems Student • Web Developer • Tech Enthusiast</p>
+            
+            <div class="mt-4">
+                <a href="#projects" class="btn btn-gradient btn-lg shadow-lg">View My Work <i class="fas fa-arrow-down ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-md-6">
+                    <h5 class="text-gradient fw-bold mb-2">WHO AM I?</h5>
+                    <h3 class="mb-4 fw-bold text-dark">Passionate about Technology & Problem Solving</h3>
+                    <p class="about-text">
+                        I am an Information Systems student passionate about technology, design, 
+                        and problem solving. I enjoy building clean web interfaces, experimenting 
+                        with Java, and understanding how systems work.
+                    </p>
+                    <p class="about-text">
+                        Saat ini saya fokus mengembangkan skill di bidang 
+                        <strong>Web Development</strong>, <strong>Java OOP</strong>, 
+                        dan <strong>Database</strong>.
+                    </p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span class="fw-semibold">Web Design</span>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span class="fw-semibold">Java Backend</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="about-highlight card-hover">
+                        <h5 class="mb-3 fw-bold"><i class="fas fa-layer-group me-2"></i>Tech Stack</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge-skill">HTML & CSS</span>
+                            <span class="badge-skill">Bootstrap 5</span>
+                            <span class="badge-skill">Java OOP</span>
+                            <span class="badge-skill">MySQL</span>
+                            <span class="badge-skill">System Analysis</span>
+                            <span class="badge-skill">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding bg-light-gradient">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h3 class="fw-bold">My Recent Projects</h3>
+                <p class="text-muted">Here are some projects I've worked on recently.</p>
+            </div>
+            
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="card project-card w-100">
+                        <div class="img-wrapper">
+                            <img src="68D45563-B9A8-4F4B-943F-90EDD8E72080_4_5005_c.jpeg" class="card-img-top" alt="Hotel System" onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500&auto=format&fit=crop&q=60'">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Hotel Reservation System</h5>
+                            <p class="card-text text-muted mb-4">
+                                A Java-based application to manage room bookings, customers, and 
+                                payments using full OOP concepts.
+                            </p>
+                            
+                            <div class="mt-auto">
+                                <div class="project-tags mb-3">
+                                    <span class="tag">Java</span>
+                                    <span class="tag">OOP</span>
+                                    <span class="tag">CRUD</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-gradient w-100">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="card project-card w-100">
+                        <div class="img-wrapper">
+                            <img src="601A1995-2009-424C-A462-7B40BAAF0F1F.jpeg" class="card-img-top" alt="POS System" onerror="this.src='https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=500&auto=format&fit=crop&q=60'">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Café POS System</h5>
+                            <p class="card-text text-muted mb-4">
+                                A FOH transaction system for cafés that handles orders, payments, 
+                                and basic reporting efficiently.
+                            </p>
+                            
+                            <div class="mt-auto">
+                                <div class="project-tags mb-3">
+                                    <span class="tag">Java</span>
+                                    <span class="tag">System Design</span>
+                                    <span class="tag">Console</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-gradient w-100">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="card project-card w-100">
+                        <div class="img-wrapper">
+                            <img src="B7D500CF-92C8-4E24-B5E5-AA93697626AD.jpeg" class="card-img-top" alt="Portfolio Website" onerror="this.src='https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&auto=format&fit=crop&q=60'">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Personal Portfolio</h5>
+                            <p class="card-text text-muted mb-4">
+                                A responsive portfolio site showcasing skills, projects, and 
+                                contact details with modern UI design.
+                            </p>
+                            
+                            <div class="mt-auto">
+                                <div class="project-tags mb-3">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">Bootstrap</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-gradient w-100">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container contact-container">
+            <div class="text-center mb-5">
+                <h5 class="text-gradient fw-bold">CONTACT ME</h5>
+                <h3>Let's Start a Conversation</h3>
+            </div>
+            
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3 text-start">
+                        <label class="form-label fw-semibold">Name</label>
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6 mb-3 text-start">
+                        <label class="form-label fw-semibold">Email</label>
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="mb-3 text-start">
+                    <label class="form-label fw-semibold">Subject</label>
+                    <input type="text" class="form-control" placeholder="Subject">
+                </div>
+                <div class="mb-3 text-start">
+                    <label class="form-label fw-semibold">Message</label>
+                    <textarea class="form-control" rows="4" placeholder="How can I help you?"></textarea>
+                </div>
+                <button class="btn btn-gradient w-100 py-2 fw-bold">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <div class="container">
+            <p class="mb-0 small">© 2025 Felix Tommy Lauvender. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
